@@ -1,0 +1,43 @@
+button {
+    color: #7A7A7A;
+    background-color: #EEDFBC;
+    border-width: 2px;
+    border-color: #707070;
+    border-style: solid;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 50;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: #cdc1a7;
+}
+
+.top_header_div {
+    display: flex;
+    color: white;
+    background-color: #BB6164;
+    border-width: 1px;
+    border-color: #707070;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    font-weight: 200;
+}
+
+.main_header {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.nav_btns_div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    background-color: #E8E3B7;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
