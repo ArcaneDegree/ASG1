@@ -12,6 +12,11 @@ button {
     border-radius: 10px;
 }
 
+button:hover {
+    border-radius: 30px;
+    border-color: #aeaeae;
+}
+
 button:active {
     background-color: #cdc1a7;
 }
@@ -40,4 +45,57 @@ button:active {
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 300;
+    color: #707070;
+    font-family: 'Segoe UI';
+}
+
+h3 {
+    font-weight: 200;
+    color: #707070;
+    font-family: 'Segoe UI';
+}
+
+p {
+    font-weight: 50;
+    color: #707070;
+    font-family: 'Segoe UI';
+}
+
+.food_element_div {
+    display: flex;
+    border-radius: 20px;
+    background-color: #E8E3B7;
+    padding: 20px;
+    flex-direction: column;
+    width: 20%;
+}
+
+.food_element_name_header {
+    text-align: center;
+}
+
+.food_element_price_para {
+    text-align: center;
+}
+
+.dishes_list_div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.food_element_img {
+    width: 120px;
+    height: 120px;
+    align-self: center;
 }

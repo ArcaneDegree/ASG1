@@ -1,0 +1,61 @@
+Project Idea
+->Build a website for a fast food restaurant.
+
+External user’s goal:
+->The site's users are customers and people interested in working for the restaurant, the customers would like to find out more about the restaurant and possibly order food from them online, while the people interested in working for the restaurant would like to see the available vacancies, as well as details about them and be able to apply for them online.
+
+Site owner's goal:
+->The restaurant is interested in making money from online orders as well as finding new people to recruit.
+
+Potential features to include:
+-> Indicate and display the different types of food and beverages that the restaurant has to offer to customers.
+-> Show upcoming promotions and offers that the restaurant may have.
+-> Indicate the different vacancies and job positions that the restaurant currently has available for people interested in applying for a job at the restaurant.
+
+Suggested Javascript features to include:
+-> Utilize a dropdown as a filter for the different types of food and beverages that the restaurant offers.
+-> Small interactions that occur when interacting with different elements on the website, for instance, buttons may change color depending on whether they are clicked/hovered over.
+
+List of main dishes offered by the restaurant:
+-> Chicken Burger
+-> Cheese Burger
+-> Fish Burger
+-> Double Cheese Burger
+-> Hamburger
+-> Spicy Chicken Burger
+
+List of side dishes offered by the restaurant:
+-> Fries
+-> Coleslaw
+-> Nacho Cheese Fries
+-> Chicken Drumstick
+-> Vanilla Ice Cream
+-> Chocolate Ice Cream
+-> Strawberry Ice Cream
+-> Pineapple Tart
+-> Cinammon Rolls
+-> Chicken Nuggets
+
+List of beverages offered by the restaurant:
+-> Ice Milo
+-> Ice Lemon Tea
+-> Coffee
+-> Capucinno
+-> Hot Milo
+-> Hot Chocolate
+-> Bottled Water
+-> Tea
+-> Sprite
+-> Coca-Cola
+-> Coca-Cola Zero Sugar
+-> Orange Juice
+-> Green Tea
+
+Note: Beverages can be ordered in different sizes (e.g. small, medium and large).
+
+List of possible vacancies/job positions offered by the restaurant:
+-> Service Crew
+-> Waiter
+-> Cleaner
+-> Branch Manager
+-> Delivery Driver
