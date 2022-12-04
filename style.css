@@ -234,3 +234,33 @@ popup {
     padding: 20px;
     font-family: 'Segoe UI';
 }
+
+.job_position_div_class {
+    display: flex;
+    background-color: #E8E3B7;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #707070;
+    border-style: solid;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.job_position_details_div_class {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.job_position_img_class {
+    height: 100%;
+}
+
+body {
+    background-color: #e1d3b6;
+}
+
+li {
+    font-family: 'Segoe UI';
+    color: #707070;
+}

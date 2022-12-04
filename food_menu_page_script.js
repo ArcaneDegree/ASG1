@@ -6,6 +6,10 @@ var beverages_list_div = document.getElementById("beverages_list_div");
 
 var food_list = JSON.parse(localStorage.getItem("food_list"));
 
+var home_btn = document.getElementById("home_btn");
+
+home_btn.addEventListener("click", OnHomeBtnClicked);
+
 InitFoodDivs();
 
 function InitFoodDivs()
@@ -32,7 +36,7 @@ function InitFoodDivs()
 
         food_element_img.setAttribute("src", food_list[current_index].food_img_link);
 
-        food_element_price_para.innerHTML = "Price: S$" + food_list[current_index].food_price;
+        food_element_price_para.innerHTML = "Price: S$" + food_list[current_index].food_price.toFixed(2);
 
         food_element_div.appendChild(food_element_name_header);
 
@@ -57,4 +61,9 @@ function InitFoodDivs()
             console.log("Error occurred while initializing food element div: Unrecognized food type.");
         }
     }
+}
+
+function OnHomeBtnClicked()
+{
+    window.location.href = "index.html";
 }

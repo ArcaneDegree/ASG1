@@ -28,6 +28,10 @@
 <p>Coca-Cola Zero Sugar Image: <a>https://www.istockphoto.com/photo/coca-cola-zero-gm458472299-16142660</a></p>
 <p>Orange Juice Image: <a>https://www.istockphoto.com/photo/glass-of-orange-juice-gm168410143-17619835</a></p>
 <p>Green Tea Image: <a>https://www.istockphoto.com/photo/green-tea-cup-gm610747890-104906727</a></p>
+<p>Service Crew Image: <a>https://www.istockphoto.com/photo/female-food-service-worker-at-counter-with-a-coffee-and-bag-gm157286988-4426718</a></p>
+<p>Barista Image: <a>https://www.gettyimages.com/detail/photo/%E0%B9%8C%E0%B9%8Cniche-barista-men-making-hot-latte-menu-for-royalty-free-image/1204626545</a></p>
+<p>Delivery Driver Image: <a>https://www.gettyimages.com/detail/photo/man-delivery-pizza-to-customer-royalty-free-image/1366060372</a></p>
+<p>Restaurant Management Trainee Image: <a>https://www.gettyimages.com/detail/photo/portrait-of-owner-waiter-using-digital-tablet-at-royalty-free-image/1174700925</a></p>
 
 
 

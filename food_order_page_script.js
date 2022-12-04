@@ -38,6 +38,10 @@ var order_completion_status_popup = document.getElementById("order_completion_st
 
 var complete_payment_btn = document.getElementById("complete_payment_btn");
 
+var add_to_order_status_popup = document.getElementById("add_to_order_status_popup");
+
+var home_btn = document.getElementById("home_btn");
+
 dish_selection_dropdown.addEventListener("change", OnDishSelectionDropdownValueChanged);
 
 dish_selection_dropdown.addEventListener("change", UpdateFoodPriceTag);
@@ -57,6 +61,8 @@ back_to_order_btn.addEventListener("click", OnBackToOrderBtnClicked);
 purchase_btn.addEventListener("click", OnPurchaseBtnClicked);
 
 complete_payment_btn.addEventListener("click", OnCompletePaymentBtnClicked);
+
+home_btn.addEventListener("click", OnHomeBtnClicked);
 
 // For testing purposes only.
 // current_shopping_cart.food_obj_list.push(new FoodObject("Hamburger", 2));
@@ -189,6 +195,8 @@ function UpdateOrderScreen()
         ToggleDivVisibility(view_order_panel_div, false);
 
         ToggleDivVisibility(post_order_panel_div, false);
+
+        home_btn.style.visibility = "visible";
     }
     else
     {
@@ -199,6 +207,10 @@ function UpdateOrderScreen()
         ToggleDivVisibility(view_order_panel_div, false);
 
         ToggleDivVisibility(post_order_panel_div, false);
+
+        add_to_order_status_popup.style.visibility = "hidden";
+
+        home_btn.style.visibility = "hidden";
     }
 }
 
@@ -321,6 +333,10 @@ function OnAddToOrderBtnClicked()
             
             UpdateLocalStorageShoppingCart();
 
+            add_to_order_status_popup.innerHTML = quantity_input_box.value + " " + dish_selection_dropdown.options[dish_selection_dropdown.selectedIndex].value + "(s) added to your order successfully.";
+
+            add_to_order_status_popup.style.visibility = "visible";
+
             return;
         }
     }
@@ -328,6 +344,10 @@ function OnAddToOrderBtnClicked()
     current_shopping_cart.food_obj_list.push(new FoodObject(dish_selection_dropdown.options[dish_selection_dropdown.selectedIndex].value, parseFloat(quantity_input_box.value)));
 
     UpdateLocalStorageShoppingCart();
+
+    add_to_order_status_popup.innerHTML = quantity_input_box.value + " " + dish_selection_dropdown.options[dish_selection_dropdown.selectedIndex].value + "(s) added to your order successfully.";
+
+    add_to_order_status_popup.style.visibility = "visible";
 }
 
 function OnBackToOrderBtnClicked()
@@ -421,4 +441,9 @@ function OnCompletePaymentBtnClicked()
             order_completion_status_popup.style.visibility = "visible";
         }
     }
+}
+
+function OnHomeBtnClicked()
+{
+    window.location.href = "index.html";
 }
