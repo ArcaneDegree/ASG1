@@ -8,17 +8,6 @@ var food_list = JSON.parse(localStorage.getItem("food_list"));
 
 InitFoodDivs();
 
-function FoodElement(chosen_food_name, chosen_food_img_link, chosen_food_price, chosen_food_type)
-{
-    this.food_name = chosen_food_name;
-
-    this.food_img_link = chosen_food_img_link;
-
-    this.food_price = chosen_food_price;
-
-    this.food_type = chosen_food_type;
-}
-
 function InitFoodDivs()
 {
     for (let current_index = 0; current_index < food_list.length; current_index++)

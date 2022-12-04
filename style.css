@@ -99,3 +99,138 @@ p {
     height: 120px;
     align-self: center;
 }
+
+.current_food_img {
+    width: 100%;
+    height: auto;
+}
+
+.main_order_panel_div {
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    column-gap: 20px;
+}
+
+.side_order_panel_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex-grow: 1;
+}
+
+.current_food_img_div {
+    display: flex;
+    flex-grow: 1;
+    border-color: #cdc1a7;
+    border-width: 4px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    border-style: solid;
+    padding: 10px;
+}
+
+.quantity_input_div {
+    display: flex;
+    max-width: 100px;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.quantity_input_box {
+    max-width: 60px;
+    padding: 10px;
+    background-color: #EEDFBC;
+    border-radius: 10px;
+    border-style: solid;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+.dish_selection_dropdown {
+    background-color: #EEDFBC;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.pre_order_panel_div_class {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.order_panel_div_class {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.start_order_btn_class {
+    padding: 20px;
+}
+
+.view_order_panel_div_class {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.order_details_grid_class {
+    display: grid;
+    background-color: #EEDFBC;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #7A7A7A;
+    border-style: solid;
+    padding: 20px;
+    column-gap: 30px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.post_order_panel_div_class {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #7A7A7A;
+    border-style: solid;
+    background-color: #EEDFBC;
+    padding: 20px;
+}
+
+.payment_details_grid_class {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.payment_details_input_box {
+    width: 300px;
+    height: 20px;
+    background-color: #E8E3B7;
+    border-color: #7A7A7A;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 2px;
+}
+
+popup {
+    background-color: #85e86f;
+    border-color: #707070;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px;
+    font-family: 'Segoe UI';
+}
